@@ -13,4 +13,5 @@ const port = process.env.PORT
 
 app.listen(port,() => {
   console.log(`Listening port ${port}`)
+  console.log(process.env)
 })
