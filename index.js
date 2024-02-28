@@ -11,4 +11,6 @@ app.use('/',todoRouter)
 
 const port = process.env.PORT
 
-app.listen(port)
+app.listen(port,() => {
+  console.log(`Listening port ${port}`)
+})
